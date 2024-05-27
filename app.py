@@ -33,4 +33,4 @@ def upload_file():
         return render_template('index.html', result=output_filename)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
